@@ -1,0 +1,53 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+body{
+  font-family: "segoeui";
+}
+
+
+@font-face {
+  font-family: "big_noodle_titling";
+  src: url("/font/big_noodle_titling.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "segoeui";
+  src: url("/font/segoeui.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+.swiper-pagination {
+    /* margin-top: 0px !important; */
+  }
+  .swiper-pagination-bullet {
+    background-color: #B4ECC8 !important; /* Light green for inactive dots */
+    opacity: 1;
+  }
+  .swiper-pagination-bullet-active {
+    background-color: #00FF60 !important; /* Bright green for active dot */
+  }
+
+  @font-face {
+    font-family: 'Baloo';
+    src: url('/font/BalooThambi-Regular.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Roboto';
+    src: url('/font/Roboto-Regular.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
+  
